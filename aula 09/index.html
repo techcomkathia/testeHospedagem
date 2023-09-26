@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de dados</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Jogo dos dados</h1>
+    </header>
+
+    <main>
+        <div class="descricao">
+            <p>Neste jogo você disputará com o computador quem consegue mais pontos ao lançar 3 dados.</p>
+            <p>Clique para lançar os dados</p>
+            <button id="jogar"> Lançar dados</button>
+
+        </div>
+
+        <div class="computador" id="computador">
+            <h1>Computador</h1>
+
+            <div class="container">
+               
+                <img src="imagens/dadoPretoJogar.png" alt="dadoC1" id="dadoC1">
+                <img src="imagens/dadoPretoJogar.png" alt="dadoC2" id="dadoC2">
+                <img src="imagens/dadoPretoJogar.png" alt="dadoC3" id="dadoC3">
+            </div>
+
+        </div>
+
+        <div class="jogador" id="jogador">
+            <h1>Jogador</h1>
+
+            <div class="container">
+                <img src="imagens/dadoVermelhoJogar.png" alt="dadoJ1" id="dadoJ1">
+                <img src="imagens/dadoVermelhoJogar.png" alt="dadoJ2" id="dadoJ2">
+                <img src="imagens/dadoVermelhoJogar.png" alt="dadoJ3" id="dadoJ3">
+            </div>
+
+        </div>
+        
+        <div class="resultado"> 
+            <p id="ganhador"></p>            
+        </div>
+    </main>
+
+    <script src="main.js"></script>  
+</body>
+
+</html>
